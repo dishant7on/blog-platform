@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
-
+const API_URL = "https://blog-platform-backend-yxtn.onrender.com/api";
 function Home() {
   const [posts, setPosts] = useState([]);
 
